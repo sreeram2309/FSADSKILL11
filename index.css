@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f0f2f5; }
+h1 { text-align: center; color: #1a237e; padding: 20px; }
+.nav { display: flex; justify-content: center; gap: 16px; padding: 16px; background: #1565C0; }
+.nav button { background: white; color: #1565C0; border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer; font-weight: bold; }
+.nav button:hover, .nav button.active { background: #FFC107; color: #000; }
+.content { max-width: 900px; margin: 20px auto; padding: 20px; }
+.card { background: white; padding: 16px; margin: 10px 0; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+.card h3 { margin: 0 0 8px 0; color: #1565C0; }
+.card p { margin: 4px 0; color: #555; }
+.loading { text-align: center; color: #888; padding: 40px; font-size: 18px; }
+.error { color: red; text-align: center; padding: 20px; }
+.refresh-btn { display: block; margin: 10px auto; background: #4CAF50; color: white; border: none; padding: 8px 20px; border-radius: 4px; cursor: pointer; }
+select { padding: 8px; margin: 10px 0; border-radius: 4px; border: 1px solid #ccc; }
